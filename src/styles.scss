@@ -1,0 +1,27 @@
+// 1. Основные функции и переменные
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/utilities";
+
+// 2. Базовые стили (root, reboot, type) 
+@import "bootstrap/scss/root";
+@import "bootstrap/scss/reboot";
+@import "bootstrap/scss/type";
+
+// 3. Сетка – колонки col-2, col-8
+@import "bootstrap/scss/containers";
+@import "bootstrap/scss/grid";
+
+// 4. Кнопки – классы btn, btn-danger, btn-secondary, btn-lg
+@import "bootstrap/scss/buttons";
+
+// 5. Модальное окно (modal + close + transitions)
+@import "bootstrap/scss/transitions";
+@import "bootstrap/scss/modal";
+@import "bootstrap/scss/close";
+
+// 6. API утилит (генерирует классы вроде d-flex, w-100, h-100, text-center, fw-bold, fs-*)
+@import "bootstrap/scss/helpers";
+@import "bootstrap/scss/utilities/api";
